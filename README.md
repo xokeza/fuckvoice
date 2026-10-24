@@ -1,49 +1,54 @@
-<p align="center">
-  <img src="https://i.pinimg.com/originals/53/a0/3d/53a03dfe10d137fe7427b48471e2c5aa.gif" alt="Banner" width="600">
-</p>
+<div align="center">
 
-<h1 align="center">FuckVoice</h1>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="FuckVoice — твой клиент, твой голос."></picture>
 
-<p align="center">
-  Модификация для обхода искусственного ограничения на использование KLauncher для работы встроенного голосового чата на сервере EnvyWorld.
-</p>
+<a href="../../releases"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/download-dark.svg"><img src="assets/download-light.svg" width="260" alt="Скачать релиз"></picture></a>
 
-<p align="center">
-  ![Minecraft Version](https://shields.io)
-  ![Loader](https://shields.io)
-</p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg"><img src="assets/about-light.svg" width="100%" alt="Мод для голосового чата EnvyWorld в стороннем Fabric-клиенте."></picture>
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/flow-dark.svg"><img src="assets/flow-light.svg" width="100%" alt="Fabric-клиент → FuckVoice → EnvyWorld. Схема принципа работы."></picture>
 
-## Описание
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/install-dark.svg"><img src="assets/install-light.svg" width="100%" alt="1. Скачать .jar из Releases. 2. Переместить в mods профиля Fabric. 3. Запустить игру."></picture>
 
-Некоторые серверы (например, **EnvyWorld**) ограничивают работу голосового чата, требуя запуска исключительно через определенный лаунчер (KLauncher). 
+</div>
 
-Данный мод **подменяет идентификатор лаунчера** в сетевых пакетах при подключении к серверу. Для сервера вы выглядите как игрок с «правильного» лаунчера, благодаря чему голосовой чат разблокируется автоматически. Это позволяет вам играть со своего любимого клиента (Modrinth, Prism, TL Legacy или чистый Vanilla).
+<details>
+<summary><b>Техническая часть</b></summary>
 
-## Демонстрация работы
+По описанию автора, FuckVoice перехватывает пакеты при подключении и подменяет идентификатор лаунчера на маркер, ожидаемый сервером от KLauncher. Реализация, совместимые версии Minecraft и зависимости уточняются в конкретном релизе.
 
-<p align="center">
-  <img src="assets/usage-demo.gif" alt="Demonstration" width="800">
-</p>
+</details>
 
-## Установка
+<details>
+<summary><b>Установка — текстовая инструкция</b></summary>
 
-1. Скачайте актуальную версию мода со страницы [Releases](../../releases).
-2. Поместите скачанный `.jar` файл в папку `mods` вашего игрового клиента Fabric.
-3. Дополнительные библиотеки или лоадеры не требуются — мод работает "из коробки".
-4. Запустите игру и заходите на EnvyWorld.
+1. Скачайте подходящий `.jar` со страницы [Releases](../../releases).
+2. Поместите файл в папку `mods` игрового профиля **Fabric**.
+3. Проверьте требования выбранного релиза к версии Minecraft и зависимостям.
+4. Запустите профиль Fabric и подключитесь к EnvyWorld.
 
-## Как это работает (Техническая часть)
+Лаунчеры Modrinth, Prism и TL Legacy указаны как варианты запуска. Обычный Vanilla-профиль без загрузчика Fabric не загружает этот мод.
 
-Мод перехватывает пакеты авторизации (Handshake) при подключении к серверу и внедряет в метаданные строку-маркер, которую сервер ожидает увидеть от KLauncher. Никакие личные данные не модифицируются и не передаются сторонним лицам.
+</details>
 
-## Дисклеймер
+<details>
+<summary><b>Демонстрация игрового процесса</b></summary>
 
-Автор мода не несёт ответственности за возможные блокировки вашего аккаунта на сервере. Использование модификаций, обходящих ограничения сервера, формально может нарушать внутренние правила проекта EnvyWorld. Используйте на свой страх и риск.
+Запись пока не добавлена. Схема выше иллюстрирует принцип работы.
+<!-- Когда запись будет готова, замените эту строку: <img src="assets/usage-demo.gif" width="800" alt="Демонстрация FuckVoice в игре"> -->
 
-## Лицензия / License
+</details>
 
-Этот проект распространяется под свободной лицензией. Подробности можно найти в файлах:
-* [LICENSE (English)](LICENSE)
-* [LICENSE_RU (Русский)](LICENSE_ru)
+### Дисклеймер
+
+Использование мода может нарушать правила EnvyWorld и привести к блокировке аккаунта. Автор не несёт ответственности за последствия использования.
+
+### Лицензия
+
+Условия распространения указаны в [LICENSE](LICENSE) и [LICENSE_RU](LICENSE_ru).
+
+<div align="center">
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg"><img src="assets/footer-light.svg" width="100%" alt="FuckVoice — выбирай клиент, оставайся на связи."></picture>
+
+</div>
