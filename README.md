@@ -24,7 +24,6 @@
 ## Демонстрация работы
 
 <p align="center">
-  <!-- Сюда можно загрузить GIF-ку, где видно, что лаунчер не KLauncher, но значок микрофона на сервере активен -->
   <img src="assets/usage-demo.gif" alt="Demonstration" width="800">
 </p>
 
