@@ -1,5 +1,4 @@
 <p align="center">
-  <!-- Сюда вставляешь ссылку на анимированный баннер/логотип. Например, в стиле киберпанк или с глитч-эффектом -->
   <img src="assets/banner.gif" alt="EnvyVoiceBypass Banner" width="600">
 </p>
 
