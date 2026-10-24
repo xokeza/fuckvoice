@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://pinimg.com" alt="Banner" width="600">
+  <img src="https://i.pinimg.com/originals/53/a0/3d/53a03dfe10d137fe7427b48471e2c5aa.gif" alt="Banner" width="600">
 </p>
 
 <h1 align="center">FuckVoice</h1>
