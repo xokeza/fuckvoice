@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fuckvoice",
+  "version": "1.0.0",
+  "name": "FuckVoice",
+  "description": "Removes PlasmoVoice IP restriction — works with VPN and any launcher",
+  "authors": ["whymorry"],
+  "contact": {},
+  "license": "WTFPL",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["me.whymorry.fuckvoice.FuckVoice"]
+  },
+  "mixins": ["fuckvoice.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

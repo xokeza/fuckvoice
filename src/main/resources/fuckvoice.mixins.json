@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "me.whymorry.fuckvoice.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["HasJoinedServerMixin", "JoinServerMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
